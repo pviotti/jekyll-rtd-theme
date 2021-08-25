@@ -1,16 +1,16 @@
 // core
 @import "lib/material-design-lite/variables";
 @import "lib/material-design-lite/mixins";
-@import "lib/@primer/css/support";
+@import "lib/@primer/css/support/index.scss";
 @import "variables";
 @import "root";
 
-@import "lib/@primer/css/base";
-@import "lib/@primer/css/breadcrumb";
-@import "lib/@primer/css/buttons";
-@import "lib/@primer/css/forms";
-@import "lib/@primer/css/loaders";
-@import "lib/@primer/css/markdown";
+@import "lib/@primer/css/base/index.scss";
+@import "lib/@primer/css/breadcrumb/index.scss";
+@import "lib/@primer/css/buttons/index.scss";
+@import "lib/@primer/css/forms/index.scss";
+@import "lib/@primer/css/loaders/index.scss";
+@import "lib/@primer/css/markdown/index.scss";
 @import "lib/rouge/github";
 
 // fonts
@@ -34,4 +34,4 @@
 @import "direction";
 
 // utilities
-@import "lib/@primer/css/utilities";
+@import "lib/@primer/css/utilities/index.scss";
